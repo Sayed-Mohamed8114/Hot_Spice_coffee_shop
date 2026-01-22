@@ -604,6 +604,9 @@ header .navbar {
 
   .contact-section .contact-form {
     max-width: 100%;
+}
+  .footer-section .section-content {
+    font-size: 10px;
   }
 
   .footer-section .section-content {
