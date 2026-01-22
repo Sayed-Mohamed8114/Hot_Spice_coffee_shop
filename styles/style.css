@@ -605,6 +605,10 @@ header .navbar {
   .contact-section .contact-form {
     max-width: 100%;
   }
+
+  .footer-section .section-content {
+    font-size: 12px;
+  }
 }
 
 /* when the max-width is 640 px*/
@@ -632,6 +636,6 @@ header .navbar {
   }
 
   .footer-section .section-content {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
