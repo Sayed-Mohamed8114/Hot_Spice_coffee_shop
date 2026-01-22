@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Spice</title>
+    <link rel="icon" href="./assets/icon.png" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <!--swiper that will help us to make the swiper in the testimonials-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar-->
+    <header>
+      <nav class="navbar section-content">
+        <a href="index.html" class="logo">
+          <h2 class="logo-text">☕ Hot Spice</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="index.html" class="navlink">Home</a>
+            <a href="#about" class="navlink">About</a>
+            <a href="#menu" class="navlink">Menu</a>
+            <a href="#testimonials" class="navlink">Testimonials</a>
+            <a href="#gallery" class="navlink">Gallery</a>
+            <a href="#contact" class="navlink">Contact</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+    <!--end of nav bar-->
+
+    <main id="page-content">
+      <!--hero section-->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">Best Coffee</h2>
+            <h3 class="subtitle">
+              Make your day great with our special coffee!
+            </h3>
+            <p class="discription">
+              Welcome to our coffee paradise , where every bean tells a story
+              and every cup spark joy.
+            </p>
+            <div class="buttons">
+              <a href="#" class="button order-now">Order Now</a>
+              <a href="#" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img
+              class="hero-image"
+              src="./assets/coffee-hero-section.png"
+              alt="hero picture"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--about section-->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img
+              class="about-image"
+              src="./assets/about-image.jpg"
+              alt="the about image"
+            />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">
+              At Hot Spice in Cairo, Egypt, we pride ourselves on being a go to
+              destination for coffee lovers and conversition seskers alike.
+              we're dedicated to providing an exceptional coffee experience in a
+              cozy and inviting atmosphere,where guests can relax ,unwind and
+              enjoy their time in comfort
+            </p>
+            <div class="social-links-list">
+              <a href="#" class="social-links">
+                <i class="fa-brands fa-facebook" id="facebook"></i>
+              </a>
+              <a
+                href="https://instagram.com/xx_saayed_xx"
+                class="social-links"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram" id="instagram"></i>
+              </a>
+              <a href="#" class="social-links">
+                <i class="fa-brands fa-x-twitter" id="twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--menu section -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Our Menu</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img
+                src="./assets/hot-beverages.png"
+                alt="Hot Beverages"
+                class="menu-image"
+              />
+              <h3 class="name">Hot Beverages</h3>
+              <p class="text">
+                wide range of streaming hot coffee to make you fresh and light.
+              </p>
+            </li>
+
+            <li class="menu-item">
+              <img
+                src="./assets/cold-beverages.png"
+                alt="Cold Beverages"
+                class="menu-image"
+              />
+              <h3 class="name">Cold Beverages</h3>
+              <p class="text">
+                Refreshing cold beverages blend ice, flavor, and sweetness for
+                instant cool satisfaction.
+              </p>
+            </li>
+
+            <li class="menu-item">
+              <img
+                src="./assets/desserts.png"
+                alt="Dessert"
+                class="menu-image"
+              />
+              <h3 class="name">Dessert</h3>
+              <p class="text">
+                Creamy ice cream blended with sweet, juicy strawberry pieces in
+                every bite.
+              </p>
+            </li>
+
+            <li class="menu-item">
+              <img
+                src="./assets/burger-frenchfries.png"
+                alt="burger and french fries"
+                class="menu-image"
+              />
+              <h3 class="name">Classic Burger</h3>
+              <p class="text">
+                Juicy burger paired with crispy golden french fries for a
+                classic, satisfying meal.
+              </p>
+            </li>
+
+            <li class="menu-item">
+              <img
+                src="./assets/special-combo.png"
+                alt="Special combo"
+                class="menu-image"
+              />
+              <h3 class="name">special Combo</h3>
+              <p class="text">
+                Special combo featuring hotdog, burger, crispy fries, and
+                refreshing Coca-Cola together.
+              </p>
+            </li>
+
+            <li class="menu-item">
+              <img
+                src="./assets/refreshment.png"
+                alt="Refreshments"
+                class="menu-image"
+              />
+              <h3 class="name">Refreshments</h3>
+              <p class="text">
+                Freshly squeezed juices made from ripe fruits for a natural,
+                refreshing boost.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Testimonials section-->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="./assets/user-1.jpg"
+                    alt="user1"
+                    class="user-image"
+                  />
+                  <h3 class="name">Sarah Ali</h3>
+                  <i class="feedback">
+                    "Loved the french roast. Perfectly balanced and rich. Will
+                    order again"
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="./assets/user-2.jpg"
+                    alt="user2"
+                    class="user-image"
+                  />
+                  <h3 class="name">Mohamed Sayed</h3>
+                  <i class="feedback">
+                    "Amazing service and quality! The coffee and snacks are
+                    always fresh."
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="./assets/user-3.jpg"
+                    alt="user3"
+                    class="user-image"
+                  />
+                  <h3 class="name">Mostafa Mohamed</h3>
+                  <i class="feedback">
+                    "The staff is friendly and helpful. Highly recommend this
+                    cafe to everyone!"
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="./assets/user-4.jpg"
+                    alt="user4"
+                    class="user-image"
+                  />
+                  <h3 class="name">Mona Abdo</h3>
+                  <i class="feedback">
+                    "Fast service, delicious food, and refreshing beverages.
+                    Will definitely come back!"
+                  </i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="./assets/user-5.jpg"
+                    alt="user4"
+                    class="user-image"
+                  />
+                  <h3 class="name">Zaki Amr</h3>
+                  <i class="feedback">
+                    "The staff is friendly and helpful. Highly recommend this
+                    cafe to everyone!"
+                  </i>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--gallery section-->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="./assets/gallery-1.jpg"
+                class="gallery-image"
+                alt="gallery1"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./assets/gallery-2.jpg"
+                class="gallery-image"
+                alt="gallery2"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./assets/gallery-3.jpg"
+                class="gallery-image"
+                alt="gallery3"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./assets/gallery-4.jpg"
+                class="gallery-image"
+                alt="gallery4"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./assets/gallery-5.jpg"
+                class="gallery-image"
+                alt="gallery5"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./assets/gallery-6.jpg"
+                class="gallery-image"
+                alt="gallery6"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--contact us section-->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>43 Elmokattam, Cairo, Egypt</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@HotSpice.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(114) 625-5319</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: 10:00 AM - 2:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>
+                <a
+                  href="https://github.com/Sayed-Mohamed8114"
+                  target="_blank"
+                  style="color: black"
+                  >www.hotSpice.com</a
+                >
+              </p>
+            </li>
+          </ul>
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your email"
+              class="form-input"
+              required
+            />
+            <textarea
+              class="textarea"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <button class="submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!--footer-->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">&copy; 2026 Hot Spice</p>
+          <div class="social-links-list">
+            <a href="#" class="social-links">
+              <i class="fa-brands fa-facebook" id="facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com/xx_saayed_xx"
+              class="social-links"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram" id="instagram"></i>
+            </a>
+            <a href="#" class="social-links">
+              <i class="fa-brands fa-x-twitter" id="twitter"></i>
+            </a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy Policy</a>
+            <span class="seperator">●</span>
+            <a href="#" class="policy-link">Refund Policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!--link swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!--link custom js-->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
